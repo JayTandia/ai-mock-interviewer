@@ -19,7 +19,7 @@ import { MockInterview } from '@/utils/schema'
 import { v4 as uuidv4 } from 'uuid';
 import { useUser } from '@clerk/nextjs'
 import moment from 'moment/moment'
-import { useRouter } from 'next/router'
+import { useRouter } from 'next/navigation'
 
   
 
@@ -32,7 +32,7 @@ function AddNewInterview() {
     const [loading, setLoading] = useState(false)
     const [jsonResponse, setjsonResponse] = useState([])
     const {user} = useUser()
-    const router = useRouter
+    const router = useRouter();
 
     const onSubmit = async(e) => {
         setLoading(true)
