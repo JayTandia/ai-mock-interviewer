@@ -13,7 +13,7 @@ function LandingHero() {
     <div className='flex flex-col items-center justify-center mt-52'>
         
         
-        <h1  className='font-bold text-6xl p-3'>AI Mock Interviwer</h1>
+        <h1  className='font-bold text-6xl p-3'>AI Mock Interviewer</h1>
         <h4 className='text-lg'>Best AI-powered Mock Interviwer to clear your all interviews</h4>
 
         <div className=' flex gap-6 p-8'>
